@@ -1,6 +1,10 @@
 /*font-family: "Roboto", sans-serif;*/
 /*font-family: "Montserrat", sans-serif;*/
 
+#crisp-chatbox > div > a {
+	opacity: 0.8;
+}
+
 /* Global styles start */
 * {
 	margin: 0;
@@ -87,7 +91,7 @@ body {
 	width: 40px;
 	height: 40px;
 	margin-right: 32px;
-	margin-bottom: 32px;
+	margin-bottom: 95px;
 	border-radius: 8px;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 	color: rgb(255, 170, 95);
@@ -172,6 +176,10 @@ nav li a {
 	font-family: "Nunito", sans-serif;
 	font-weight: 700;
 	font-size: large;
+}
+
+.menu-icon {
+	display: none;
 }
 /* Navigation bar styles end */
 
