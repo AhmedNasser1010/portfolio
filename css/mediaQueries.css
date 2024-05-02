@@ -1,0 +1,389 @@
+/*------------------------------------------
+	Responsive Grid Media Queries - 1280, 1024, 768, 480
+	 1280-1024   - desktop (default grid)
+	 1024-768    - tablet landscape
+	 768-480     - tablet 
+	 480-less    - phone landscape & smaller
+--------------------------------------------*/
+
+/*@media all and (min-width: 1024px) and (max-width: 1280px) { }*/
+
+/*@media all and (min-width: 768px) and (max-width: 1024px) { }*/
+
+/*@media all and (min-width: 480px) and (max-width: 768px) { }*/
+
+/*@media all and (max-width: 480px) { }*/
+
+
+/* phone landscape & smaller */
+@media all and (max-width: 480px) {
+	/* Start navigation bar	*/
+	nav {
+		width: 100%;
+    border-radius: 0;
+    top: 0;
+    height: 100vh;
+		flex-direction: column;
+    justify-content: flex-start;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+	}
+
+	nav.active {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	nav div,
+	nav a {
+		margin-bottom: 20px;
+	}
+
+	nav li {
+		margin-bottom: 40px;
+	}
+
+	nav li a {
+		font-size: xx-large;
+	}
+
+	nav .icon {
+		order: -1;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+
+	nav .icon h2 .first,
+	nav .icon h2 .last {
+		font-size: 24px;
+	}
+
+	nav .search-box {
+		min-width: 80%;
+		padding: 20px;
+		margin-bottom: 150px;
+	}
+
+	nav .search-box a {
+		margin-bottom: 0;
+		font-size: large;
+    margin-right: 10px;
+	}
+
+	nav .search-box input {
+		font-size: large;
+	}
+
+	.menu-icon {
+		color: #2f2f2f;
+    font-size: 30px;
+    position: fixed;
+    z-index: 4;
+    top: 30px;
+    right: 35px;
+	}
+
+	/* End navigation bar	*/
+
+	/* Start hero section	*/
+	.hero {
+		flex-direction: column;
+	}
+
+
+	.hero .splide,
+	.hero .content {
+		width: 100%;
+	}
+
+	.hero .content {
+		height: 100vh;
+	}
+
+	.hero .content .wavey-circle {
+		left: -120px;
+    top: -200px;
+    width: 760px;
+    transform: rotate(175deg);
+	}
+
+	#splide01 > ul {
+		display: none;
+	}
+
+	.hero .splide .splide__track .splide__list .splide__slide {
+		background-position: center;
+	}
+
+	.hero .content .plant.one {
+		top: -13%;
+    right: -13%;
+    width: 140px;
+	}
+
+	.hero .content .plant.two {
+		width: 160px;
+    transform: rotate(27deg);
+    left: -45px;
+	}
+
+	.hero .content .dots.two {
+		width: 80px;
+    top: 4%;
+	}
+
+	.hero .content .text-content {
+		text-align: center;
+    width: 100%;
+		transform: translateY(-80%);
+	}
+
+	.hero .content .text-content .head-text .section-title {
+		font-size: xxx-large;
+	}
+
+	.hero .content .text-content .head-text .line-container .title-underline {
+		margin: 0 auto 10px;
+    width: 20%;
+	}
+
+	.hero .content .text-content .head-text p {
+		width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+	}
+
+	.hero .content .text-content .head-text .btn {
+		justify-content: center;
+	}
+
+	.hero .content .text-content .head-text .btn a {
+		font-size: x-small;
+	}
+
+	/* End hero section	*/
+
+	/* Start about section	*/
+	.about {
+		padding-bottom: 150px;
+	}
+
+	.about .head {
+		width: 80%;
+    text-align: center;
+    top: 64%;
+	}
+
+	.about .head .section-title {
+		font-size: xxx-large;
+	}
+
+	.about .head .title-underline {
+		margin: auto;
+    width: 20%;
+    margin-bottom: 20px;
+	}
+
+	.about .head p {
+		text-align: justify;
+    line-height: 25px;
+    width: unset;
+	}
+
+	.about .bottom {
+		justify-content: center;
+	}
+
+	.about .cactus.one,
+	.about .cactus.two,
+	.about .cactus.three {
+		display: none;
+	}
+
+	.about .cactus.four {
+		bottom: 90px;
+	}
+
+	.about .cactus.five {
+		bottom: 60px;
+    left: 66px;
+	}
+
+	.about .cactus.six {
+		bottom: 45px;
+    left: 170px;
+	}
+
+	.about .avatar {
+		width: 50%;
+    top: 30%;
+    z-index: 1;
+	}
+
+	.about .white-plant.two {
+		width: 120px;
+    top: 11%;
+    left: 57%;
+	}
+
+	.about .white-plant.one {
+		width: 120px;
+    top: 0px;
+	}
+
+	.about .dots {
+		left: unset;
+    right: 10%;
+    top: 2%;
+    width: 90px;
+	}
+
+	/* End about section */
+
+	/* Start techStack section */
+	.tech-stack {
+		padding-top: 100px;
+	}
+
+	.tech-stack h2  {
+		font-size: xxx-large;
+		max-width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+	}
+
+	.tech-stack h2 .title-underline {
+		width: 25%;
+	}
+
+	.tech-stack ul li {
+		width: calc(50% - 100px);
+	}
+	/* End techStack section */
+
+	/* Start works section */
+	.works h2 .title-shape {
+		left: calc(50% + 111px);
+    bottom: 40px;
+	}
+
+	.works h2 {
+		font-size: xxx-large;
+	}
+
+	.works h2 .title-underline {
+		width: 25%;
+	}
+
+	.works .work-card-parent .work-card .content {
+		width: calc(100% - 40px);
+	}
+
+	.works .work-card-parent .work-card {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.works .work-card-parent .work-card .image {
+		width: 100%;
+		height: 220px;
+	}
+
+	.works .work-card-parent .work-card .image .card-waves {
+		transform: rotate(0deg);
+    left: 0;
+    top: unset;
+    bottom: -3px;
+	}
+
+	.works .work-card-parent .work-card.right .image .card-waves {
+		transform: rotate(180deg);
+    left: 0;
+    top: -3px;
+	}
+
+	.works .work-card-parent .work-card .content .title {
+		font-size: x-large;
+		align-items: center;
+	}
+
+	.works .work-card-parent .work-card .content .title .shape {
+		width: 45px;
+    height: 25px;
+	}
+
+	.works .work-card-parent .work-card .content .description {
+		font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+	}
+
+	.works .work-card-parent .work-card .content .buttons .btn {
+		padding: 10px;
+		font-size: small;
+	}
+
+	.works .work-card-parent .work-card .content .flags {
+		justify-content: center;
+    margin-bottom: 25px;
+    row-gap: 8px;
+	}
+
+	.works .work-card-parent .work-card .content .tags {
+		justify-content: center;
+	}
+
+	.works .work-card-parent .corner {
+		top: -50px;
+    left: -45px;
+    width: 110px;
+    height: 120px;
+	}
+
+	.works .work-card-parent .corner.bottom {
+		top: unset;
+    left: unset;
+    right: -45px;
+    bottom: -50px;
+	}
+
+	.works .work-card-parent .card-break-line {
+		width: 110px;
+    height: 120px;
+	}
+
+	.works .plant {
+		width: 150px;
+	}
+
+	.works .plant.one {
+		top: 450px;
+	}
+
+	.works .plant.two {
+		top: 1120px;
+	}
+
+	.works .plant.three {
+		top: 1860px;
+    right: -90px;
+	}
+
+	.works .plant.four {
+		top: 2580px;
+    left: -95px;
+	}
+
+	.works .plant.five {
+		top: 3280px;
+	}
+
+	.works .plant.six {
+		top: 3890px;
+    left: -90px;
+	}
+	/* End works section */
+}
+
