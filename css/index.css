@@ -178,7 +178,7 @@ nav li a {
 	font-size: large;
 }
 
-.menu-icon {
+body > i.menu-icon {
 	display: none;
 }
 /* Navigation bar styles end */

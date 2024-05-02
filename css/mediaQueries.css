@@ -75,7 +75,7 @@
 		font-size: large;
 	}
 
-	.menu-icon {
+	body > i.menu-icon {
 		color: #2f2f2f;
     font-size: 30px;
     position: fixed;
