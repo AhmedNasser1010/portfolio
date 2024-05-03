@@ -16,7 +16,7 @@
 
 
 /* Tablet & phone landscape & smaller */
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
 	/* Start navigation bar	*/
 	nav {
 		width: 100%;
