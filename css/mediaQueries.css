@@ -15,8 +15,8 @@
 /*@media all and (max-width: 480px) { }*/
 
 
-/* phone landscape & smaller */
-@media all and (max-width: 480px) {
+/* Tablet & phone landscape & smaller */
+@media all and (max-width: 768px) {
 	/* Start navigation bar	*/
 	nav {
 		width: 100%;

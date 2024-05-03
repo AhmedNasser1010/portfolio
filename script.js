@@ -2,8 +2,8 @@
 // initialize
 const splide = new Splide('.splide', {
 	type: 'loop',
-	autoplay: false,
-  interval: 2000,
+	autoplay: true,
+  interval: 3000,
 });
 
 document.addEventListener('DOMContentLoaded', () => {

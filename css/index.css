@@ -210,22 +210,25 @@ body > i.menu-icon {
 }
 
 .hero .splide .splide__track .splide__list .splide__slide.one {
-	background-image: url("../assets/backgrounds/Hatta-Dam.jpg");
+	background-image: url("../assets/projectsMockups/davon.png");
 }
 .hero .splide .splide__track .splide__list .splide__slide.two {
-	background-image: url("../assets/backgrounds/private-tour.jpg");
+	background-image: url("../assets/projectsMockups/uae-adventure.png");
 }
 .hero .splide .splide__track .splide__list .splide__slide.three {
-	background-image: url("../assets/backgrounds/burj-khalifa.jpg");
+	background-image: url("../assets/projectsMockups/webnexus.png");
 }
 .hero .splide .splide__track .splide__list .splide__slide.four {
-	background-image: url("../assets/backgrounds/desertBuggy.jpg");
+	background-image: url("../assets/projectsMockups/ninjas.png");
 }
 .hero .splide .splide__track .splide__list .splide__slide.five {
-	background-image: url("../assets/backgrounds/website.jpg");
+	background-image: url("../assets/projectsMockups/todo-app.png");
 }
 .hero .splide .splide__track .splide__list .splide__slide.six {
-	background-image: url("../assets/backgrounds/landing-page.jpg");
+	background-image: url("../assets/projectsMockups/orderSync.png");
+}
+.hero .splide .splide__track .splide__list .splide__slide.seven {
+	background-image: url("../assets/projectsMockups/leon.png");
 }
 
 .hero .splide .custom-arrows {
@@ -836,6 +839,34 @@ body > i.menu-icon {
 	background-size: cover;
 	width: 55%;
 	position: relative;
+}
+
+.works .work-card-parent .work-card#DavonOnlineSchool .image {
+	background-image: url(../assets/projectsMockups/davon.png);
+}
+
+.works .work-card-parent .work-card#uaeAdventure .image {
+	background-image: url(../assets/projectsMockups/uae-adventure.png);
+}
+
+.works .work-card-parent .work-card#WebNexus .image {
+	background-image: url(../assets/projectsMockups/webnexus.png);
+}
+
+.works .work-card-parent .work-card#CodeNinjas .image {
+	background-image: url(../assets/projectsMockups/ninjas.png);
+}
+
+.works .work-card-parent .work-card#ToDoApp .image {
+	background-image: url(../assets/projectsMockups/todo-app.png);
+}
+
+.works .work-card-parent .work-card#OrderSync .image {
+	background-image: url(../assets/projectsMockups/orderSync.png);
+}
+
+.works .work-card-parent .work-card#leon .image {
+	background-image: url(../assets/projectsMockups/leon.png);
 }
 
 .works .work-card-parent .work-card .image .card-waves {
