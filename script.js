@@ -77,3 +77,15 @@ childsArr.map(child => {
 })
 
 // ==End handle nav visibility in mobile
+
+// ==Start handle loading screen
+window.addEventListener('load', () => {
+  const loadScreen = document.querySelector('.loading-screen');
+  const body = document.body;
+
+  setTimeout(() => {
+    loadScreen.classList.remove('loading');
+    body.classList.remove('loading');
+  }, 3000)
+})
+// ==End handle loading screen

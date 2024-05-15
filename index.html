@@ -4,9 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ahmed | Portfolio</title>
+	<meta name="description" content="Let's craft your digital presence together. Contact me to discuss your vision to life.">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/mediaQueries.css">
 	<link rel="stylesheet" type="text/css" href="css/Normaliz.css">
+	<link rel="stylesheet" type="text/css" href="css/loadingScreen.css">
+	<link rel="stylesheet" type="text/css" href="css/lazyLoadText.css">
+	<link rel="stylesheet" type="text/css" href="css/animations.css">
+	<link rel="stylesheet" type="text/css" href="css/shadowCursor.css">
 	<script src="https://kit.fontawesome.com/ecd6796bda.js" crossorigin="anonymous"></script>
 	<!-- Font Roboto -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +33,7 @@
 	<!-- Splide is js slider libirary -->
 	<link rel="stylesheet" href="https://unpkg.com/@splidejs/splide@3.0.6/dist/css/splide.min.css">
 </head>
-<body>
+<body class="loading">
 
 	<!-- Start menu icon -->
 	<i class="fa-solid fa-bars menu-icon"></i>
@@ -70,21 +75,21 @@
 
 			<div class="text-content">
 				<div class="head-text">
-					<h1 class="section-title">Web Developer.</h1>
+					<h1 class="section-title lazyLoadText lazyLoadTextHor transition-1-s">Web Developer.</h1>
 					<div class="line-container">
 						<span class="title-underline"></span>
 					</div>
-					<p>Let's craft your digital presence together. Contact me to discuss your vision to life.</p>
-					<span class="location-text">Expertise, Support, Quality, Success.</span>
+					<p class="lazyLoadText lazyLoadTextHor">Let's craft your digital presence together. Contact me to discuss your vision to life.</p>
+					<span class="location-text lazyLoadText lazyLoadTextHor">Expertise, Support, Quality, Success.</span>
 					<span class="btn">
-						<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedn.coder@gmail.com" class="styledBtnReverced" target="_blank">CONTACT ME NOW!</a>
-						<a href="#works" class="styledBtn">MY WORKS</a>
+						<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedn.coder@gmail.com" class="btn-rounded" target="_blank">CONTACT ME NOW!</a>
+						<a href="#works" class="btn-rounded-outline">MY WORKS</a>
 					</span>
 				</div>
 			</div>
 
 			<div class="information">
-				<h3>www.ahmed-nasser.me</h3>
+				<h3 class="lazyLoadText lazyLoadTextHor">Made With <i class="fa-solid fa-heart" style="color: #ffaa5f;"></i> By Ahmed</h3>
 				<div class="social-links">
 					<a href="https://github.com/AhmedNasser1010" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
 					<a href="https://www.linkedin.com/in/ahmed-n-52aa58276" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -138,14 +143,14 @@
 		<img class="white-plant two" src="assets/shapes/plant-3-white.png" alt="cactus">
 
 		<div class="head">
-			<h2 class="section-title">About Me.</h2>
+			<h2 class="section-title lazyLoadText lazyLoadTextHor transition-1-s">About Me.</h2>
 			<span class="title-underline"></span>
-			<p>
+			<p class="lazyLoadText lazyLoadTextHor">
 				Ahmed Nasser, a dynamic Web Developer (Front End), merges a rich web development background with innovative drive. With a year of hands-on experience, he excels in HTML&CSS, JavaScript, and React, crafting immersive web experiences. Passionate about seamless user interactions, Ahmed transforms digital landscapes with precision and captivates audiences.
 			</p>
 			<div class="bottom">
-				<a href="https://drive.google.com/file/d/1SQmatZtV8Cqe0VxVPmnsUqFGfQZ93ULG/view?usp=sharing" class="styledBtn" target="_blank">RESUME</a>
-				<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedn.coder@gmail.com" class="styledBtnReverced" target="_blank">GET IN TOUCH</a>
+				<a href="https://drive.google.com/file/d/1SQmatZtV8Cqe0VxVPmnsUqFGfQZ93ULG/view?usp=sharing" class="btn-rounded-outline" target="_blank">RESUME</a>
+				<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedn.coder@gmail.com" class="btn-rounded" target="_blank">GET IN TOUCH</a>
 			</div>
 		</div>
 	</section>
@@ -163,61 +168,61 @@
 		<img src="assets/shapes/plant4.png" alt="plant" class="plant one">
 		<img src="assets/shapes/plant5.png" alt="plant" class="plant two">
 
-		<h2 class="section-title">
+		<h2 class="section-title lazyLoadText lazyLoadTextHor transition-1-s">
 			My Tech Stack.
 			<span class="title-underline"></span>
 		</h2>
 		<ul>
 			<img src="assets/shapes/flower1.png" alt="flower" class="flower one">
-			<li title='HTML'>
+			<li title='HTML' class="lazyLoadText lazyLoadTextHor">
 				<div class="icon"><img src="assets/icons/html.svg" alt="html"></div>
 				<h4>HTML</h4>
 			</li>
-			<li title='CSS'>
+			<li title='CSS' class="lazyLoadText lazyLoadTextHor transition-1-s">
 				<div class="icon"><img src="assets/icons/css.svg" alt="css"></div>
 				<h4>CSS</h4>
 			</li>
-			<li title='JavaScript'>
+			<li title='JavaScript' class="lazyLoadText lazyLoadTextHor transition-1o5-s">
 				<div class="icon"><img src="assets/icons/javascript.svg" alt="javascript"></div>
 				<h4>JavaScript</h4>
 			</li>
-			<li title='React JS'>
+			<li title='React JS' class="lazyLoadText lazyLoadTextHor transition-2-s">
 				<div class="icon"><img src="assets/icons/react.svg" alt="react js"></div>
 				<h4>React</h4>
 			</li>
-			<li title='Redux JS'>
+			<li title='Redux JS' class="lazyLoadText lazyLoadTextHor transition-2o5-s">
 				<div class="icon"><img src="assets/icons/redux.svg" alt="redux js"></div>
 				<h4>Redux</h4>
 			</li>
-			<li title='Version Control'>
+			<li title='Version Control' class="lazyLoadText lazyLoadTextHor transition-3-s">
 				<div class="icon"><img src="assets/icons/git.svg" alt="git"></div>
 				<h4>Git</h4>
 			</li>
-			<li title='Github'>
+			<li title='Github' class="lazyLoadText lazyLoadTextHor transition-3o5-s">
 				<div class="icon"><img src="assets/icons/github.svg" alt="github"></div>
 				<h4>Github</h4>
 			</li>
-			<li title='TailwindCSS'>
+			<li title='TailwindCSS' class="lazyLoadText lazyLoadTextHor transition-4-s">
 				<div class="icon"><img src="assets/icons/tailwind-css.svg" alt="tailwindcss"></div>
 				<h4>Tailwind</h4>
 			</li>
-			<li title='Styled Component'>
+			<li title='Styled Component' class="lazyLoadText lazyLoadTextHor transition-4o5-s">
 				<div class="icon"><img src="assets/icons/styled-component.svg" alt="styled component"></div>
 				<h4>Styled</h4>
 			</li>
-			<li title='Google Firebase'>
+			<li title='Google Firebase' class="lazyLoadText lazyLoadTextHor transition-5-s">
 				<div class="icon"><img src="assets/icons/firebase.svg" alt="firebase"></div>
 				<h4>Firebase</h4>
 			</li>
-			<li title='Matrial UI'>
+			<li title='Matrial UI' class="lazyLoadText lazyLoadTextHor transition-5o5-s">
 				<div class="icon"><img src="assets/icons/mui.svg" alt="matrial ui"></div>
 				<h4>MUI</h4>
 			</li>
-			<li title='Node Package Manager'>
+			<li title='Node Package Manager' class="lazyLoadText lazyLoadTextHor transition-6-s">
 				<div class="icon"><img src="assets/icons/npm.svg" alt="node package manager"></div>
 				<h4>NPM</h4>
 			</li>
-			<li title='Postman'>
+			<li title='Postman' class="lazyLoadText lazyLoadTextHor transition-6o5-s">
 				<div class="icon"><img src="assets/icons/postman.svg" alt="postman"></div>
 				<h4>Postman</h4>
 			</li>
@@ -227,16 +232,16 @@
 
 	<!-- Start my works -->
 	<section class="works" id='works'>
-		<h2 class="section-title">
+		<h2 class="section-title lazyLoadText lazyLoadTextHor transition-1-s">
 			My Works.
 			<span class="title-underline"></span>
 			<svg viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg" class="title-shape"><path d="M27.5249 6.55257C27.1158 6.8252 26.8187 7.25027 26.699 7.73427C26.5792 8.21826 26.6466 8.72153 26.8863 9.13337L30.0191 14.516C30.2587 14.9278 30.6511 15.2145 31.1098 15.3129C31.5686 15.4113 32.0561 15.3135 32.4652 15.0409C32.8742 14.7682 33.1713 14.3431 33.2911 13.8591C33.4108 13.3751 33.3435 12.8719 33.1038 12.4601L29.971 7.07744C29.731 6.66602 29.3386 6.37971 28.88 6.28131C28.4214 6.18291 27.9341 6.28046 27.5249 6.55257Z"></path><path d="M21.3172 24.3705C21.6223 23.9713 21.7755 23.4665 21.7431 22.967C21.7107 22.4674 21.4953 22.0142 21.1443 21.7069L9.37136 10.3676C9.02036 10.0604 8.56253 9.92423 8.09857 9.98921C7.63461 10.0542 7.20254 10.3149 6.89741 10.7141C6.59227 11.1132 6.43908 11.6181 6.47151 12.1176C6.50394 12.6171 6.71934 13.0704 7.07034 13.3776L18.8432 24.717C19.1944 25.0237 19.6522 25.1595 20.116 25.0945C20.5798 25.0296 21.0118 24.7692 21.3172 24.3705Z"></path><path d="M13.9635 36.3389C14.1083 35.847 14.0753 35.3173 13.8718 34.8664C13.6683 34.4156 13.311 34.0804 12.8784 33.9346L3.09994 30.1461C2.6674 30.0003 2.19507 30.0559 1.78686 30.3007C1.37864 30.5454 1.06798 30.9592 0.92322 31.4511C0.778456 31.943 0.811449 32.4726 1.01494 32.9235C1.21842 33.3744 1.57574 33.7096 2.00828 33.8554L11.7868 37.6439C12.2193 37.7891 12.6914 37.7332 13.0995 37.4885C13.5076 37.2439 13.8183 36.8304 13.9635 36.3389Z"></path></svg>
 		</h2>
 
 		<ul class="work-card-parent">
-			<span class="corner"></span>
+			<span class="corner top"></span>
 
-			<li class="work-card" id="DavonOnlineSchool">
+			<li class="work-card lazyLoadText lazyLoadTextHor" id="DavonOnlineSchool">
 
 				<span class="image">
 					<span class="card-waves"></span>
@@ -280,7 +285,7 @@
 
 			<span class="card-break-line"></span>
 
-			<li class="work-card" id="uaeAdventure">
+			<li class="work-card lazyLoadText lazyLoadTextHor rightToLeft" id="uaeAdventure">
 
 				<span class="image">
 					<span class="card-waves"></span>
@@ -324,7 +329,7 @@
 
 			<span class="card-break-line"></span>
 
-			<li class="work-card right" id="WebNexus">
+			<li class="work-card right lazyLoadText lazyLoadTextHor" id="WebNexus">
 
 				<div class="content">
 					<span class="index">02</span>
@@ -368,7 +373,7 @@
 
 			<span class="card-break-line"></span>
 
-			<li class="work-card right" id="CodeNinjas">
+			<li class="work-card right lazyLoadText lazyLoadTextHor rightToLeft" id="CodeNinjas">
 
 				<div class="content">
 					<span class="index">04</span>
@@ -411,7 +416,7 @@
 
 			<span class="card-break-line"></span>
 
-			<li class="work-card" id="ToDoApp">
+			<li class="work-card lazyLoadText lazyLoadTextHor" id="ToDoApp">
 
 				<span class="image">
 					<span class="card-waves"></span>
@@ -459,7 +464,7 @@
 
 			<span class="card-break-line"></span>
 
-			<li class="work-card right" id="OrderSync">
+			<li class="work-card right lazyLoadText lazyLoadTextHor rightToLeft" id="OrderSync">
 
 				<div class="content">
 					<span class="index">06</span>
@@ -506,7 +511,7 @@
 
 			<span class="card-break-line"></span>
 
-			<li class="work-card" id="leon">
+			<li class="work-card lazyLoadText lazyLoadTextHor" id="leon">
 
 				<span class="image">
 					<span class="card-waves"></span>
@@ -558,8 +563,8 @@
 		<img src="assets/shapes/plant-5-white.png" alt="plant" class="plant right five">
 		<img src="assets/shapes/plant-6-white.png" alt="plant" class="plant six">
 
-		<span class="section-border top"></span>
-		<span class="section-border bottom"></span>
+		<span class="section-border top bg-move-lToR"></span>
+		<span class="section-border bottom bg-move-rToL"></span>
 	</section>
 	<!-- End my works -->
 	
@@ -573,6 +578,22 @@
 	<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="6530423a-48e6-4170-995c-8e3ee7f69e32";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 	<!-- End chatbox -->
 
+	<!-- Start loading screen -->
+	<div class="loading-screen loading">
+		<svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  		<path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="var(--secondary)" stroke-width="2"></path>
+  		<path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="var(--secondary)" stroke-width="2"></path>
+  		<path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
+  		<path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--secondary)"></path>
+  		<path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+		</svg>
+	</div>
+	<!-- End loading screen -->
+
+	<!-- Start shadow cursor -->
+	<div id="shadowCircle" class="shadow-circle">
+	<!-- End shadow cursor -->
+
 	<!-- Start Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QDXRGLZKN5"></script>
 	<script>
@@ -585,5 +606,9 @@
 	<!-- End Google tag (gtag.js) -->
 	<script src="https://unpkg.com/@splidejs/splide@3.0.6/dist/js/splide.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="scripts/lazyLoadText.js"></script>
+	<script type="text/javascript" src="scripts/scrollImageAnimeHorizontal.js"></script>
+	<script type="text/javascript" src="assets/packages/kinet.min.js"></script>
+	<script type="text/javascript" src="scripts/shadowCursor.js"></script>
 </body>
 </html>

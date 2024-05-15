@@ -1,0 +1,11 @@
+@keyframes plantOne {
+  0% {
+    transform: rotate(220deg);
+  }
+  50% {
+    transform: rotate(230deg);
+  }
+  100% {
+    transform: rotate(220deg;
+  }
+}

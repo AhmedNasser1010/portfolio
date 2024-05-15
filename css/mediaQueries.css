@@ -16,7 +16,7 @@
 
 
 /* Tablet & phone landscape & smaller */
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
 	/* Start navigation bar	*/
 	nav {
 		width: 100%;
@@ -118,8 +118,8 @@
 	}
 
 	.hero .content .plant.one {
-		top: -13%;
-    right: -13%;
+		top: -48%;
+    right: -26%;
     width: 140px;
 	}
 
@@ -337,10 +337,13 @@
 	}
 
 	.works .work-card-parent .corner {
-		top: -50px;
-    left: -45px;
     width: 110px;
     height: 120px;
+	}
+
+	.works .work-card-parent .corner.top {
+		top: -50px;
+    left: -45px;
 	}
 
 	.works .work-card-parent .corner.bottom {
@@ -386,5 +389,10 @@
     left: -90px;
 	}
 	/* End works section */
+
+	.works .section-border {
+		left: -200%;
+		width: 300%;
+	}
 }
 

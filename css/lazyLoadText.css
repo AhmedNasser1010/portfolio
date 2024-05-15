@@ -1,0 +1,73 @@
+.lazyLoadText {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.lazyLoadText.transition-03-s {
+	transition: 0.3s;
+}
+.lazyLoadText.transition-1-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-1o5-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-2-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-2o5-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-3-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-3o5-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-4-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-4o5-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-5-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-5o5-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-6-s {
+	transition: 1s;
+}
+.lazyLoadText.transition-6o5-s {
+	transition: 1s;
+}
+
+.lazyLoadTextHor {
+	transform: translateX(-5%);
+}
+
+.lazyLoadTextHor.rightToLeft {
+	transform: translateX(5%);
+}
+
+.lazyLoadTextHor.slide {
+	opacity: 1;
+	transform: translateX(0px);	
+}
+
+.lazyLoadTextVer {
+	transform: translateY(10%);
+}
+.lazyLoadTextVer.slide {
+	opacity: 1;
+	transform: translateY(0px);	
+}
+
+.footer .arrow.lazyLoadTextVer {
+	transform: translateY(10%) rotate(180deg);	
+}
+
+.footer .arrow.lazyLoadTextVer.slide {
+	transform: translateY(0px) rotate(180deg);	
+}
