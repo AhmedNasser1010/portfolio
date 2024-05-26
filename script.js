@@ -80,12 +80,14 @@ childsArr.map(child => {
 
 // ==Start handle loading screen
 window.addEventListener('load', () => {
-  const loadScreen = document.querySelector('.loading-screen');
   const body = document.body;
+  const loadScreen = document.querySelector('.loading-screen');
+  const shadowCircle = document.querySelector('.shadow-circle');
 
   setTimeout(() => {
-    loadScreen.classList.remove('loading');
     body.classList.remove('loading');
+    loadScreen.classList.remove('loading');
+    shadowCircle.classList.remove('loading');
   }, 3000)
 })
 // ==End handle loading screen

@@ -10,6 +10,11 @@
   pointer-events: none;
   mix-blend-mode: multiply;
   z-index: 10;
+  visibility: visible;
+}
+
+.shadow-circle.loading {
+  visibility: hidden;
 }
 
 @media (max-width: 768px) {
