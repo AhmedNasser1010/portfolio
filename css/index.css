@@ -635,6 +635,7 @@ body > i.menu-icon {
 
 	border: 1px solid rgba(255, 170, 95, 0.31);
 	padding: 20px 30px;
+	cursor: pointer;
 }
 
 .tech-stack ul li .icon {
@@ -643,7 +644,11 @@ body > i.menu-icon {
 
 .tech-stack ul li .icon img {
 	margin-bottom: 5px;
-	width: 50px;
+	width: 36px;
+}
+
+.tech-stack ul li .icon img[alt="shadcn ui"] {
+	border-radius: 8px;
 }
 
 .tech-stack ul li h4 {
